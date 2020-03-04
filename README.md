@@ -2,7 +2,12 @@
 developer productivity by implementing the right CI/CD strategy for your business
 
 
-# Prompt die KUBECONFIG weergeeft als deze gezet is
+# Prompt die KUBECONFIG weergeeft als deze gezet is.  Geerten Schram
+
+````
+
+Een voorbeeld .bashrc zodat je met een alias kan schakelen naar het juiste cluster en in je promt ziet met welk cluster je verbonden bent.
+
 
 prompt() {
    if [ ! -z $KUBECONFIG ]; 
@@ -10,9 +15,8 @@ prompt() {
       else PS1="[\u@\h \W]\$ "
    fi 
 }
-PROMPT_COMMAND=prompt 
+PROMPT_COMMAND=prompt [ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
 
-[ -f ~/.kubectl_aliases ] && source ~/.kubectl_aliases
 function kubectl() { echo "+ kubectl $@">&2; command kubectl $@; }
 
 alias setminikube='export KUBECONFIG=~/.kube/minikubeconfig'
@@ -23,4 +27,5 @@ alias setot2='export KUBECONFIG=~/.kube/lpc-ot2-config.yaml'
 alias setoff='export KUBECONFIG=""'
 
 source <(kubectl completion bash)
-Een voorbeeld .bashrc zodat je met een alias kan schakelen naar het juiste cluster en in je promt ziet met welk cluster je verbonden bent.
+````
+
