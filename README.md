@@ -9,7 +9,7 @@ Ga van nul naar ... met Kubernetes om uw bedrijf klaar te stomen voor toekomstig
 
 # Prompt die KUBECONFIG weergeeft als deze gezet is.  Geerten Schram
 
-![Setting up a Kubernetes build pipeline](https://youtu.be/5irsAdKoEBU)
+[Setting up a Kubernetes build pipeline](https://www.youtube.com/watch?v=5irsAdKoEBU&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=6)
 
 
 ````
