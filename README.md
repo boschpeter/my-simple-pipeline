@@ -1,6 +1,6 @@
 # my-simple-pipeline
 
-[k8s](https://github.com/boschpeter/Kubernetes/blob/master/pictures/kubernetes_in_five_minutes.png)
+![k8s](https://github.com/boschpeter/Kubernetes/blob/master/pictures/kubernetes_in_five_minutes.png)
 
 
 developer productivity by implementing the right CI/CD strategy for your business
