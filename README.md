@@ -37,3 +37,17 @@ alias setoff='export KUBECONFIG=""'
 source <(kubectl completion bash)
 ````
 
+
+Why you should care about containers
+https://www.youtube.com/watch?v=EUitQ8DaZW8&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT
+Understand how containers provide a lightweight immutable infrastructure for application deployment and more 
+efficient utilization of underlying resources in this video of why containers matter. 
+
+How Kubernetes works
+https://www.youtube.com/watch?v=daVUONZqn88&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=2  
+Learn about the key concepts in Kubernetes, including pod, deployment, replica set, scheduler and load balancer. 
+
+
+Setting up a Kubernetes build pipeline
+https://www.youtube.com/watch?v=5irsAdKoEBU&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=6
+Learn how security and associated checks and balances play a key role in setting up a Kubernetes build pipeline
