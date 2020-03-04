@@ -1,4 +1,8 @@
 # my-simple-pipeline
+
+[k8s](https://github.com/boschpeter/Kubernetes/blob/master/pictures/kubernetes_in_five_minutes.png)
+
+
 developer productivity by implementing the right CI/CD strategy for your business
 
 Kubernetes verovert de wereld van de app-ontwikkeling razendsnel. Tegen 2022 zal meer dan 75% van de wereldwijde organisaties containertoepassingen in productie hebben.
